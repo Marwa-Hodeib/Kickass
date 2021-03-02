@@ -1,3 +1,16 @@
-body {
+* {
   margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+canvas {
+  box-sizing: border-box;
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
 }

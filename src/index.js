@@ -1,6 +1,1 @@
-const canvas = document.querySelector('canvas');
-
-
-canvas.width = innerWidth
-canvas.height = innerHeight
-
+const canvas = document.querySelector('canvas')
