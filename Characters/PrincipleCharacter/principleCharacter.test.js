@@ -22,5 +22,10 @@ describe('PrincipleCharacter', () => {
     expect(mainCharacter.getConfidence()).toBe(15)
   })
 
+  test('main characters score increases 5 when the attack is triggred ', () => {
+    mainCharacter.attack(5)
+    expect(mainCharacter.getScore()).toBe(5)
+  })
+
 })
 

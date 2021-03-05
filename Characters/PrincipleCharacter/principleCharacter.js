@@ -4,6 +4,7 @@ class PrincipleCharacter{
     this.goal = goal
     this.gender = gender
     this.confidence = 15
+    this.score = 0
   }
 
   getCharacteristics() {
@@ -17,6 +18,14 @@ class PrincipleCharacter{
 
   changeConfidence(rate){
     this.confidence += rate
+  }
+
+  getScore() {
+    return this.score
+  }
+
+  attack(score) {
+    this.score += score
   }
 
 }
