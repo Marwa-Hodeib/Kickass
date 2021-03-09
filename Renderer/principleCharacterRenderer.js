@@ -1,4 +1,0 @@
-class PrincipleCharacterRenderer {
-  constructor(){
-
-  }
